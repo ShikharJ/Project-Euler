@@ -1,3 +1,4 @@
 # Project-Euler
-My solutions to the popular Project Euler problems
-Currently completed __0__ out of __584__ problems
+My solutions to the popular Project Euler problems in Python 3.5
+
+Currently completed __1__ out of __584__ problems
