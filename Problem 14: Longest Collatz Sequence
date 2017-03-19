@@ -1,0 +1,17 @@
+max_size = max_num = 0
+ 
+for i in range(1, 1000000):
+	num = i
+	size = 1
+	while (num!= 1):
+		if num % 2 == 0:
+			num = num / 2
+			size += 1
+		else :
+			num = (3 * num) + 1
+			size += 1
+	if size > max_size:
+		max_size = size
+		max_num = i
+	
+print (max_num)
