@@ -1,0 +1,10 @@
+def route_num(cube_size):
+    List = [1] * cube_size
+    for i in range(cube_size):
+        for j in range(i):
+            List[j] = List[j]+List[j - 1]
+        List[i] = 2 * List[i - 1]
+    return List[cube_size - 1]
+ 
+num = route_num(20)
+print (num)
